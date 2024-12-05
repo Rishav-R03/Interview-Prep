@@ -19,7 +19,7 @@ public class UniqueSubSq {
     }
 
     public static void main(String[] args) {
-        String Str = "aaa";
+        String Str = "abba";
         HashSet<String> set = new HashSet<String>();
         uniqueSubSeq(Str, 0, "", set);
     }
