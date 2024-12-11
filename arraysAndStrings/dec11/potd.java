@@ -1,3 +1,5 @@
+import java.util.*;
+
 class Solution {
 
     public int maximumBeauty(int[] nums, int k) {
@@ -12,7 +14,8 @@ class Solution {
                 right++;
             }
             // Update the maximum beauty based on the current range
-            // We do not add 1 here as right is already pointing to one position beyond the valid range.
+            // We do not add 1 here as right is already pointing to one position beyond the
+            // valid range.
             maxBeauty = Math.max(maxBeauty, right - left);
         }
         return maxBeauty;
