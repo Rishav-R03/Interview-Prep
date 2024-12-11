@@ -1,5 +1,6 @@
 import java.util.*;
 
+//sliding window method
 class Solution {
 
     public int maximumBeauty(int[] nums, int k) {
