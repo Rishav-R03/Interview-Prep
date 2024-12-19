@@ -34,4 +34,20 @@ class Solution {
         }
         return count;
     }
+
+    public int maxChunksToSorted3(int[] arr) {
+        int n = arr.length;
+        int count = 0;
+        int preSum = 0;
+        int sortedIdx = 0;
+        for (int i = 0; i < n; i++) {
+            preSum += arr[i];
+            sortedIdx += i;
+            if (preSum == sortedIdx) {
+                count++;
+            }
+        }
+
+        return count;
+    }
 }
