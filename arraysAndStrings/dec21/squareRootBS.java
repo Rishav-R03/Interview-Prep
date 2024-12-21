@@ -16,4 +16,10 @@ class squareRootBS {
         }
         return Math.round(high);
     }
+
+    public static void main(String[] args) {
+        int x = 284234;
+        squareRootBS obj = new squareRootBS();
+        System.out.println(obj.mySqrt(x));
+    }
 }
