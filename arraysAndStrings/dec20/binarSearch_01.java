@@ -21,6 +21,7 @@ class binarySearch_01 {
     }
 
     public static void main(String[] args) {
+        binarySearch_01 obj = new binarySearch_01();
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the size of array :");
         int n = sc.nextInt();
@@ -31,7 +32,7 @@ class binarySearch_01 {
         }
         System.out.println("Enter the key to search in array :");
         int key = sc.nextInt();
-        int result = getIndex(arr, key);
+        final int result = binarySearch_01.getIndex(arr, key);
         System.out.println("The key is present at index : " + result);
         sc.close();
     }
