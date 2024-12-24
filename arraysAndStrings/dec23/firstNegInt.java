@@ -7,8 +7,9 @@ public class firstNegInt {
 
         int windowSum = 0;
         for (int i = 0; i < k; i++) {
-            
+            windowSum += arr[i];
         }
+        
         return 1;
     }
 }
