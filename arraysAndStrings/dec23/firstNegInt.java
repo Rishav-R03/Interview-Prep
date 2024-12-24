@@ -4,6 +4,11 @@ public class firstNegInt {
         if (n < k) {
             return -1;
         }
-        
+
+        int windowSum = 0;
+        for (int i = 0; i < k; i++) {
+            
+        }
+        return 1;
     }
 }
