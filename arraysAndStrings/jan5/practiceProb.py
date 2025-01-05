@@ -5,7 +5,7 @@ Task: Compute distinct averages by summing the smallest and largest remaining nu
 Output: Count of distinct averages.
 '''
 class Solution:
-    def distinctAverages(self, nums: List[int]) -> int:
+    def distinctAverages(self, nums: list[int]) -> int:
         if not nums:  # Handle edge case where nums is empty
             return 0
         
