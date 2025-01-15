@@ -1,7 +1,8 @@
+from collections import Counterimport 
 class Solution:
     def minimumLength(self, s: str) -> int:
         # Step 1: Count the frequency of each character in the string
-        char_frequency_map = Counter(s)
+        char_frequency_map = collections.Counter(s)
 
         # Step 2: Calculate the number of characters to delete
         delete_count = 0
