@@ -17,4 +17,4 @@ def findingKsizeLargestSum(nums:list[int],k:int)->list[int]:
         windowSum = windowSum - nums[i] + nums[i+k]
         maxSum = max(maxSum,windowSum)
 
-    return [nums[i] for i in range(k) if windowSum == maxSum]
+    return [nums[i],nums[k]]
